@@ -1,0 +1,54 @@
+{
+  "skill_name": "Docker",
+  "description": "Контейнеризация приложений",
+  "levels": {
+    "1": [
+      {
+        "id": "docker_1_1",
+        "marker": "Создал Dockerfile для Python-приложения",
+        "validation": "Dockerfile в репозитории + скриншот работающего контейнера",
+        "priority": "high",
+        "resources": ["https://docs.docker.com/"]
+      },
+      {
+        "id": "docker_1_2",
+        "marker": "Запустил контейнер с пробросом портов и volume",
+        "validation": "Команда docker run с параметрами + скриншот",
+        "priority": "medium",
+        "resources": []
+      }
+    ],
+    "2": [
+      {
+        "id": "docker_2_1", 
+        "marker": "Оптимизировал Docker образ, сократив размер на 60%",
+        "validation": "Сравнение размеров образов до/после",
+        "priority": "medium",
+        "resources": []
+      },
+      {
+        "id": "docker_2_2",
+        "marker": "Настроил multi-stage сборку для production образа",
+        "validation": "Dockerfile с multi-stage + метрики размера",
+        "priority": "high",
+        "resources": []
+      }
+    ],
+    "3": [
+      {
+        "id": "docker_3_1",
+        "marker": "Настроил docker-compose для 3+ сервисов с health checks",
+        "validation": "docker-compose.yml + логи работы системы",
+        "priority": "high",
+        "resources": []
+      },
+      {
+        "id": "docker_3_2",
+        "marker": "Реализовал сбор логов и метрик из контейнеров",
+        "validation": "Дашборд с метриками + конфигурация логирования",
+        "priority": "medium",
+        "resources": []
+      }
+    ]
+  }
+}
