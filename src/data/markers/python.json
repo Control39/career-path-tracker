@@ -1,0 +1,33 @@
+{
+  "skill_name": "Python",
+  "description": "Программирование на Python",
+  "levels": {
+    "1": [
+      {
+        "id": "python_1_1",
+        "marker": "Написал скрипт для обработки CSV-файла (>100 строк)",
+        "validation": "Скрипт выложен на GitHub",
+        "priority": "high",
+        "resources": ["https://docs.python.org/3/"]
+      }
+    ],
+    "2": [
+      {
+        "id": "python_2_1", 
+        "marker": "Создал класс для работы с API и обработки ошибок",
+        "validation": "Код класса в репозитории + пример использования",
+        "priority": "high",
+        "resources": []
+      }
+    ],
+    "3": [
+      {
+        "id": "python_3_1",
+        "marker": "Реализовал асинхронный парсер с использованием asyncio",
+        "validation": "Код парсера + метрики производительности", 
+        "priority": "medium",
+        "resources": []
+      }
+    ]
+  }
+}
