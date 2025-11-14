@@ -1,0 +1,33 @@
+{
+  "skill_name": "DevOps",
+  "description": "Development Operations",
+  "levels": {
+    "1": [
+      {
+        "id": "devops_1_1", 
+        "marker": "Настроил CI/CD пайплайн для сборки и тестирования приложения",
+        "validation": "Конфигурация пайплайна + скриншот успешного выполнения",
+        "priority": "high",
+        "resources": ["https://www.jenkins.io/doc/"]
+      }
+    ],
+    "2": [
+      {
+        "id": "devops_2_1",
+        "marker": "Настроил развертывание в облаке с помощью Terraform",
+        "validation": "Terraform конфигурация + скриншот развернутой инфраструктуры",
+        "priority": "high",
+        "resources": []
+      }
+    ],
+    "3": [
+      {
+        "id": "devops_3_1",
+        "marker": "Реализовал мониторинг инфраструктуры и алертинг",
+        "validation": "Дашборд мониторинга + пример алерта",
+        "priority": "medium",
+        "resources": [] 
+      }
+    ]
+  }
+}
