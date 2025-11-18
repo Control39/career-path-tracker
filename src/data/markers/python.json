@@ -1,0 +1,15 @@
+{
+  "skill_name": "Python",
+  "description": "Программирование на Python",
+  "levels": {
+    "1": [
+      {
+        "id": "python_1_1",
+        "marker": "Написал скрипт для обработки CSV-файла (>100 строк)",
+        "validation": "Скрипт выложен на GitHub",
+        "priority": "high",
+        "resources": ["https://docs.python.org/3/"]
+      }
+    ]
+  }
+}

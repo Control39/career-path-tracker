@@ -1,0 +1,15 @@
+{
+  "skill_name": "MLOps",
+  "description": "Machine Learning Operations",
+  "levels": {
+    "1": [
+      {
+        "id": "mlops_1_1",
+        "marker": "Настроил пайплайн для обучения модели на основе готового кода",
+        "validation": "Код пайплайна в репозитории + скриншот успешного выполнения",
+        "priority": "high",
+        "resources": ["https://mlops-guide.github.io/"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "skill_name": "DevOps",
+  "description": "Development Operations",
+  "levels": {
+    "1": [
+      {
+        "id": "devops_1_1",
+        "marker": "Настроил CI/CD пайплайн для сборки и тестирования приложения",
+        "validation": "Конфигурация пайплайна + скриншот успешного выполнения",
+        "priority": "high",
+        "resources": ["https://www.jenkins.io/doc/"]
+      }
+    ]
+  }
+}

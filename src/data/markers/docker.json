@@ -1,0 +1,15 @@
+{
+  "skill_name": "Docker",
+  "description": "Контейнеризация и управление образами",
+  "levels": {
+    "1": [
+      {
+        "id": "docker_1_1",
+        "marker": "Создал Dockerfile для Python-приложения",
+        "validation": "Dockerfile в репозитории + скриншот работающего контейнера",
+        "priority": "high",
+        "resources": ["https://docs.docker.com/get-started/"]
+      }
+    ]
+  }
+}
