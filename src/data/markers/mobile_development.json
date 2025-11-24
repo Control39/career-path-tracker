@@ -1,11 +1,11 @@
 {
-  "skill_name": "Ai Applications",
-  "description": "Навыки по направлению Ai Applications",
+  "skill_name": "Mobile Development",
+  "description": "Навыки по направлению Mobile Development",
   "levels": {
     "1": [
       {
-        "id": "ai_applications_1_1",
-        "marker": "Выполнил базовый маркер по направлению Ai Applications",
+        "id": "mobile_development_1_1",
+        "marker": "Выполнил базовый маркер по направлению Mobile Development",
         "validation": "Документация или артефакт на GitHub",
         "priority": "high",
         "resources": ["https://example.com"],
@@ -20,8 +20,8 @@
         "methodology_license": "CC BY-ND 4.0"
       },
       {
-        "id": "ai_applications_1_2",
-        "marker": "Выполнил продвинутый маркер по направлению Ai Applications",
+        "id": "mobile_development_1_2",
+        "marker": "Выполнил продвинутый маркер по направлению Mobile Development",
         "validation": "Практический проект с документацией",
         "priority": "medium",
         "resources": ["https://example.com"],
